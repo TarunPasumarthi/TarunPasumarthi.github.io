@@ -1,0 +1,59 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+header{
+		padding: 1em;
+		color: white;
+		background-color: black;
+		clear: left;
+		text-align: center;
+}
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+@media screen and (max-width: 767px) {
+  .sidenav {
+	height: auto;
+	padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+button {
+	background-color: #F06977;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 40px;
+}
+button:hover{
+	background-color: #D04957;
+}
+#blog{
+	background-image: url("../images/background.png");
+}
+#bottom {
+    position: fixed;
+    bottom: 0;
+}
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
