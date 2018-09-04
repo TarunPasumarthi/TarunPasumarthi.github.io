@@ -1,110 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	  <title>Tarun Pasumarthi</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	  <script src="js/js1.js"></script>
-	  <link rel="stylesheet" href="css/style.css">
-</head>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <script src="js/js1.js"></script>
+        <title>Tarun Pasumarthi</title>
+    </head>
+    <body class="news">
+        <header class=head>
+            <a href="index.html"><img src="images/logo.JPG" ></a>
+            <nav>
+                <ul>
+                  <li><a href="./Skills.html">Skills</a></li>
+                    <li><a href="./Projects.html"><b>Projects</b></a></li>
+                  <li><a href="./Experience.html">Experience</a></li>
+                  <li><a href="./Contact.html">Contact</a></li>
+                  <li><a href="./Tarun_Pasumarthi_Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-	<header>
-		<h1>Tarun Pasumarthi</h1>
-				<nav class="navbar navbar-inverse">
-					<div class="container-fluid">
-						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html">Home</a>
-						</div>
-						<div class="collapse navbar-collapse" id="myNavbar">
-							<ul class="nav navbar-nav">
-								<li id="s2"><a href="./Skills.html">Skills</a></li>
-								<li id="s3" class="active"><a href="#">Projects</a></li>
-								<li id="s4"><a href="./Internships.html">Internships</a></li>
-								<li id="s5"><a href="./Resume.html">Resume</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-	</header>
-	
-	<div class="container-fluid text-center" height="100%">    
-		<div class="row content" >
-			<aside class="col-sm-2 sidenav">
-				<h3> Tarun Pasumarthi </h3>
-				<img src="images/Tarun.png" class="col-sm-12 text-center">
-				<br>
-				<br>
-				<br>
-				<br>
-				<b>
-				<p>Computer Engineering at UC San Diego</p>
-				<p>tyco96@gmail.com</p>
-				</b>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<div class="col-sm-12">
-					<p><b>Find Me:</b></p>
-					<a href="https://github.com/TarunPasumarthi"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
-					<a href="https://www.linkedin.com/in/tarun-pasumarthi-3a64b977/"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
-				<div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>	
-				<br>
-			</aside>
-			<section class="col-sm-10 text-left" id="blog"> 
-				<h1 id="big_h" style="color:white;">My Featured Projects</h1>
-				<br>
-				<b>
-				<article class="row content">
-					<img src="images/Sudoku.png" class="col-sm-3 text-left">
-					<div class="col-sm-4 text-left">
-					<h3 style="color:white;">Sudoku Solver</h3>
-					<p style="color:white;">Since I was a kid, I loved puzzles; Sudoku especially. One day I was stuck on a board that needed me to think about multiple iterations ahead, and that sparked my interest in creating a program that would solve all Sudoku puzzles. To see how its implemented, click on the button below!</p>
-					<button onclick="sudoku()">View More</button>
-					</div>
-				</article >
-				<hr class="col-sm-12 text-left">
-				<br>
-				<br>
-				<br>
-				<article class="row content">
-					<img src="images/app.png" class="col-sm-3 text-left">
-					<div class="col-sm-4 text-left">
-					<h3 style="color:white;">My Work</h3>
-					<p style="color:white;">I have worked with a few classmates to come up with an app which would allow students at my university to find other students from same classes to study with. To have a look at the apk, or to download the app, please click the button below</p>
-					<button onclick="app()">View More</button>
-					</div>
-				</article>
-				<hr class="col-sm-12 text-left">
-				<article class="col-sm-12 text-center" style="background-color:#555">
-					<div class="col-sm-12 text-center">
-					<h3 style="color:white;">Other Projects</h3>
-					<p style="color:white; font:50px;">To view any of my other projects including, google foobar challenges, a web scrapper, email scheduler, Huffman file compression system, file transfer program, tic tac toe game, and even Pokemon Go API experiments, please go to my git hub and check them out!</p>
-					</div>
-				</article>
-				</b>
-			</section>
-		</div>
-	</div>
-
-	
-
-</body>
+        <div class="content">
+            <div class="p1" id="parentp">
+                <center>
+                    <h1 class="titlep">Projects</h1>
+                </center>
+                <div class="wrapper">
+                    <div class="box a"><a href="https://github.com/TarunPasumarthi/Sudoku"><img class="rs" src="images/g1.JPG"></a></div>
+                    <div class="box b"><a href="https://github.com/chris1625/StudyBananas"><img class="rs" src="images/g2.JPG"></a></div>
+                    <div class="box c"><a href="https://www.felicitycbt.com/"><img class="rs" src="images/g3.JPG"></a></div>
+                    <div class="box d"><a href="https://medium.com/@hydra.dynamic.ucsd"><img class="rs" src="images/g4.JPG"></a></div>
+                    <div class="box e"><a href="https://github.com/elenadreisbach/COGS-108-Project/blob/master/FinalProject.ipynb"><img class="rs" src="images/g5.JPG"></a></div>
+                    <div class="box f"><a href="https://github.com/TarunPasumarthi"><img class="rs" src="images/g6.JPG"></a></div>
+                </div>        
+            </div>        
+        </div>
+    </body>
 </html>

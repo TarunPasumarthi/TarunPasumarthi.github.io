@@ -1,108 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	  <title>Tarun Pasumarthi</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	  <script src="js/js1.js"></script>
-	  <link rel="stylesheet" href="css/style.css">
-</head>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <script src="js/js1.js"></script>
+        <title>Tarun Pasumarthi</title>
+    </head>
+    <body class="news">
+        <header class=head>
+            <a href="#"><img src="images/logo.JPG" ></a>
+            <nav>
+                <ul>
+                  <li><a href="./Skills.html">Skills</a></li>
+                  <li><a href="./Projects.html">Projects</a></li>
+                  <li><a href="./Experience.html">Experience</a></li>
+                  <li><a href="./Contact.html">Contact</a></li>
+                  <li><a href="./Tarun_Pasumarthi_Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-	<header>
-		<h1>Tarun Pasumarthi</h1>
-				<nav class="navbar navbar-inverse">
-					<div class="container-fluid">
-						<div class="navbar-header">
-							<a class="navbar-brand" href="#">Home</a>
-						</div>
-						<div class="collapse navbar-collapse" id="myNavbar">
-							<ul class="nav navbar-nav">
-								<li id="s2"><a href="./Skills.html">Skills</a></li>
-								<li id="s3"><a href="./Projects.html">Projects</a></li>
-								<li id="s4"><a href="./Internships.html">Internships</a></li>
-								<li id="s5"><a href="./Resume.html">Resume</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-	</header>
-	
-	<div class="container-fluid text-center" height="100%" >    
-		<div class="row content" >
-			<aside class="col-sm-2 sidenav">
-				<h3> Tarun Pasumarthi </h3>
-				<img src="images/Tarun.png" class="col-sm-12 text-center" >
-				<br>
-				<br>
-				<br>
-				<br>
-				<b>
-				<p>Computer Engineering at UC San Diego</p>
-				<p>tyco96@gmail.com</p>
-				</b>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<div class="col-sm-12">
-					<p><b>Find Me:</b></p>
-					<a href="https://github.com/TarunPasumarthi"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
-					<a href="https://www.linkedin.com/in/tarun-pasumarthi-3a64b977/"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
-				<div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>				
-			</aside>
-			<section class="col-sm-10 text-left" id="blog"> 
-				<h1 id="big_h" style="color:white;">Welcome To My Portfolio!</h1>
-				<br>
-				<b>
-				<article>
-					<h3 style="color:white;">Who I Am</h3>
-					<p style="color:white;">I'm currently a fourth year, Computer Science major and Cognitive Science minor <br>at University of California, San Diego. I am also an avid basketball enthusiast, <br>an adrenaline junkie, and a proud native of the Bay Area. To find out more about me,<br> and my professional experience, please click read more!</p>
-					<button onclick="skills()">Read More</button>
-				</article>
-				<hr>
-				<br>
-				<article>
-					<h3 style="color:white;">My Work</h3>
-					<p style="color:white;">In my brief experience as a programmer and a computer science student, I have <br>tackled many compelling projects ranging from academic tasks to coding challenges <br>to just fun personal interests. Please click read more to go more into detail!</p>
-					<button onclick="projects()">Read More</button>
-				</article>
-				</b>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-			</section>
-		</div>
-	</div>
-
-	
-
-</body>
+        <div class="content">
+            <div class="p1" id="parent">
+                <div id="wide">
+                    <img src="./images/p4.png" class="pic">
+                </div >
+                <div id="narrow" class"words">
+                    <h1>Developer, Data Scientist, Basketball Enthusiast</h1>
+                    <p>I'm currently a fourth year, Computer Science major and Cognitive Science minor 
+at University of California, San Diego. To find out more about me, and my professional experience, please click around!</p>
+                    <button class="button1" onclick="resume()">RESUME</button>
+                </div>
+            </div>         
+        </div>
+    </body>
 </html>

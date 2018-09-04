@@ -19,3 +19,6 @@ function prch(){
 function resume(){
 	window.location.href="./Tarun_Pasumarthi_Resume.pdf";
 }
+function felicity(){
+	window.location.href="http://www.felicitycbt.com";
+}

@@ -1,59 +1,306 @@
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-header{
-		padding: 1em;
-		color: white;
-		background-color: black;
-		clear: left;
-		text-align: center;
-}
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
-}
-footer {
-  background-color: #555;
-  color: white;
-  padding: 15px;
-}
-@media screen and (max-width: 767px) {
-  .sidenav {
-	height: auto;
-	padding: 15px;
-  }
-  .row.content {height:auto;} 
-}
-button {
-	background-color: #F06977;
-	border: none;
-	color: white;
-	padding: 10px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	height: 40px;
-}
-button:hover{
-	background-color: #D04957;
-}
-#blog{
-	background-image: url("../images/background.png");
-}
-#bottom {
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+
+.head{
+    background-color: #54254C;
+    text-align: center;
     position: fixed;
-    bottom: 0;
-}
-.row{
-    overflow: hidden; 
+    width: 100%;
 }
 
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
+.button1 {
+    background-color: #54254C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
 }
+
+.button2 {
+    background-color: #54254C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+p {
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing:0.1em;
+    margin-right: 60px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 14pt;
+    font-variant: small-caps;
+}
+h1{
+    margin-right: 60px;
+}
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+
+#parent {
+    background-image: url(../images/back4.png);
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    color: #54254C;
+    
+}
+
+#parentp {
+    background-image: url(../images/back4.png);
+    background-color: #aaa;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    color: #54254C;
+    place-items:center;
+    
+}
+
+#parente {
+    background-image: url(../images/back4.png);
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    color: #54254C;
+    place-items:center;
+}
+
+.cl{
+    width:40px;
+    height: 40px;
+}
+
+#narrow {
+    flex: 1;
+    margin-top: 300px;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.85;
+    margin-bottom: 300px;
+}
+
+#narrow1 {
+    flex: 1;
+    margin-top: 200px;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.85;
+    margin-bottom: 200px;
+}
+
+.description{
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    background-color: white;
+    opacity: 0.85;
+}
+
+.p2{
+    margin-top: 100px;
+    height: 1000px;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.titlep{
+    margin-top: 100px;
+    background-color: #aaa;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
+.rs{
+    width: 340px;
+    height: 340px;
+    border-radius: 5px;
+}
+.box:hover{
+     background-color: #54254C
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 10px;
+    color: #444;
+    place-items:center;
+    margin-bottom: 100px;
+}
+
+.box {
+    background-color: #333;
+    color: #fff;
+    height: 350px;
+    width:350px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    display: grid;
+    place-items:center;
+}
+
+#wide {
+    flex: 1;
+}
+
+.pic{
+    margin-top: 100px;
+    margin-left: 200px;
+    height: auto;
+    width: auto;
+    resize: both;
+}
+
+.words{
+    
+}
+
+.p1{
+    height: 1000px;
+    overflow: hidden;
+}
+
+.nav-toggle {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.chartDiv{
+    background-color: beige;
+    display: grid;
+  place-items: center;
+}
+#chart{
+    padding: 10px;
+    border-radius: 5%;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: #aaa;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: #aaa;
+        position: absolute;
+        top: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+    }
+
+    nav a:hover::before {
+        transform: scale(1,1);
+    }
+}
+
